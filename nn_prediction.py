@@ -46,7 +46,7 @@ def create_test_features(image_path, samples_path):
 
 
 
-input_image = f"Images\\test\\test_1.png"
+input_image = f"Images/predictions/library_resized.png"
 img = read_environment(input_image)
 filename = extract_filename(input_image)
 ttv = input_image.split(os.path.sep)[1]
@@ -120,5 +120,5 @@ for idx in top_indices:
     
 plt.title('Top 100 Predictions with (x, y) Coordinates')
 # plt.axis('off')
-plt.grid()
+# plt.grid()
 plt.show()

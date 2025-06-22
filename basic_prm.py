@@ -84,7 +84,7 @@ def construct_graph(coordinates, img_binary, threshold_distance):
 if __name__ == "__main__":
 
     samples_basepath = "Samples_dataset/"
-    images_basepath = "Images/**/*.png"
+    images_basepath = "Images/predictions/*.png"
     filepaths = glob.glob(images_basepath)
 
     for fp in tqdm.tqdm(filepaths):

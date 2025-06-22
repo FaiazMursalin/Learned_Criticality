@@ -295,7 +295,7 @@ def main(ox, oy,filename, rng=None):
 
 if __name__ == '__main__':
 
-    path = "Images/**/*.png"
+    path = "Images/predictions/*.png"
     image_paths = glob.glob(path)
 
     for image_path in image_paths:
